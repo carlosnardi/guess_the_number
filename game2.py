@@ -14,7 +14,6 @@ number = 0
 for i in range(100):
   number += 1
   numbers.append(number)
-
 number_to_hit = random.choice(numbers)
 
 print(number_to_hit)
